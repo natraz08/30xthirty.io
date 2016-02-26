@@ -1,1 +1,111 @@
-Final Project
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://www.30xthirty.com"><img src="images/30xberet.png" alt=""></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="http://www.30xthirty.com/about/">About</a></li>
+            <li><a href="http://www.30xthirty.com/category/travels">Travel</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div id="calculator" class="container-fluid">
+        <div class="col-md-7 col-md-offset-5">
+            <form class="form-inline">
+                <h3 class="title">How many times a week do you..</h3>
+
+                <div class="form-group slide" id="eat-out-slide">
+                    <label for="eat-out">eat at restaurants?</label>
+                    <input type="text" class="form-control" id="eat-out" placeholder="example: 2">
+                    <button class="next btn btn-primary">Next</button>
+                </div>
+                <div class="form-group slide" id="go-to-bars-slide">
+                    <label for="go-to-bars">go to bars?</label>
+                    <input type="text" class="form-control" id="go-to-bars" placeholder="example: 3">
+                    <button class="submit btn btn-primary">Submit</button>
+                </div>
+
+                <div id="results" class="slide">
+                    <div class="alert alert-info" role="alert">
+                        <h4>That's <span id="money-result"></span>, or <span id="trips-result"></span> trips to Paris a year</h4>
+                        * Calculations based on average cost of RT flight to Paris of $1,100
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="second-section" class="container-fluid">
+        <h2 class="secondcopy"> Annually, The Average American Spends... </h2>
+
+        <div class="row">
+            <div class="spend col-md-3 col-sm-3 spend-projects">
+                <img src="images/dineout.png" alt="" class="spend-icon">
+                <p class="roller-container">$<span class="roller">1,092</span></p>
+                <span class="spend-separator">&nbsp;</span>
+                <p class="spend-phrase">Dining Out</p>
+            </div>
+
+            <div class="spend col-md-3 col-sm-3 spend-members">
+                <img src="images/coffee.png" alt="" class="spend-icon">
+                <p class="roller-container">$<span class="roller">1,100</span></p>
+                <span class="spend-separator">&nbsp;</span>
+                <p class="spend-phrase">On Coffee</p>
+            </div>
+
+            <div class="spend col-md-3 col-sm-3 spend-cofee">
+                <img src="images/booze.png" alt="" class="spend-icon">
+                <p class="roller-container">$<span class="roller">583</span></p>
+                <span class="spend-separator">&nbsp;</span>
+                <p class="spend-phrase">On Booze</p>
+            </div>
+
+            <div class="spend col-md-3 col-sm-3 spend-clients">
+                <img src="images/waste.png" alt="" class="spend-icon">
+                <p class="roller-container">$S<span class="roller">540</span></p>
+                <span class="spend-separator">&nbsp;</span>
+                <p class="spend-phrase">On wasted food</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="third-section">
+      <p class ="thirdcopy"> You can afford to travel... you're just too lazy to cook. </p>
+    </div>
+    <div class="fourth-section">
+    </div>
+    <footer class="fifth-section">
+
+<a href="https://www.facebook.com/30XTHIRTY-458827990871933/"><img src="images/facebook.png" alt="" class="fb-icon"></a>
+<a href="https://twitter.com/30xthirty1?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="images/twitter.png" alt="" class="twitter-icon"></a>
+<a href="https://www.instagram.com/30xthirty/?hl=en"><img src="images/instagram.png" alt="" class="ig-icon"></a>
+
+<p class="copyright">Copyright 2016. 30xThirty.</p>
+    </footer>
+      <script type="text/javascript" src="js/jquery-1.12.0.js"> </script>
+      <script type="text/javascript" src="js/bootstrap.js"> </script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/jquery.counterup.min.js"></script>
+      <script type="text/javascript" src="js/app.js"> </script>
+  </body>
+</html>
